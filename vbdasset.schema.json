@@ -1,0 +1,111 @@
+{
+  "type": "object",
+  "required": [],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "version": {
+      "type": "string"
+    },
+    "localizationInfo": {
+      "type": "object",
+      "required": [],
+      "properties": {
+        "defaultLanguageTag": {
+          "type": "string"
+        },
+        "additionalLanguages": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [],
+            "properties": {
+              "languageTag": {
+                "type": "string"
+              },
+              "subfolder": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "developer": {
+      "type": "object",
+      "required": [],
+      "properties": {
+        "owner": {
+          "type": "string"
+        },
+        "leads": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "name": {
+      "type": "object",
+      "required": [],
+      "properties": {
+        "short": {
+          "type": "string"
+        },
+        "full": {
+          "type": "string"
+        }
+      }
+    },
+    "description": {
+      "type": "object",
+      "required": [],
+      "properties": {
+        "short": {
+          "type": "string"
+        },
+        "full": {
+          "type": "string"
+        }
+      }
+    },
+    "icon": {
+      "type": "string"
+    },
+    "solutionAreas": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "workloadAlignment": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "engagementType": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "links": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [],
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}
